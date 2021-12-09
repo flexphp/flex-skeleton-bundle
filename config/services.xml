@@ -11,7 +11,7 @@
 
         <service id="flexphp.skeleton.bundle.skeleton_controller" class="FlexPHP\Bundle\Skeleton\Controller\SkeletonController" public="true" />
 
-        <prototype namespace="FlexPHP\Bundle\Skeleton\" resource="../src/*" exclude="../src/{DependencyInjection}">
+        <prototype namespace="FlexPHP\Bundle\SkeletonBundle\" resource="../src/*" exclude="../src/{DependencyInjection}">
             <tag name="@router"/>
         </prototype>
     </services>
